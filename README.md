@@ -1,7 +1,7 @@
 
 # Rapport
 
-Denna applikation visar upp Windows 95 loggan. Lyckas inte bilden laddas in så visas istället en
+Denna applikation visar upp Windows 95 loggan. Lyckas inte bilden laddas in visas istället en
 error bild. Innan applikation har lyckats eller inte med att ladda in loggan visas en placeholder.
 
 ## Följande grundsyn gäller dugga-svar:
