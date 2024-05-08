@@ -13,11 +13,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageView picassoImage = findViewById(R.id.picassoImage);
+        ImageView picassoImage = findViewById(R.id.picassoImage); // Finds the ImageView
         Picasso.get()
-                .load("https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Windows_95_stacked_logo.svg/2560px-Windows_95_stacked_logo.svg.png")
-                .placeholder(R.mipmap.ic_launcher)
-                .error(R.drawable.error)
-                .into(picassoImage);
+                .load("https://upload.wikimedia.org/wikipedia/commons/thumb/" + // Tries to load the
+                        "4/44/Windows_95_stacked_logo.svg/2560px" +                 // image three times
+                        "-Windows_95_stacked_logo.svg.png")
+                .placeholder(R.mipmap.ic_launcher) // Placeholder that shows before the image is loaded
+                                                    // or has failed to load
+                .error(R.drawable.error) // Shows if the original image couldn't load after 3 tries
+                .into(picassoImage); // Sets the image into the ImageView
     }
 }
