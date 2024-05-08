@@ -35,5 +35,5 @@ Bilden nedan visar hur det ser ut när Windows 95 loggan lyckas ladda in.
 När loggan inte lyckas ladda in.
 ![](Screenshot_error.jpg)
 
-Placeholder.
+Placeholder medan applikationen försöker ladda in bilden.
 ![](Screenshot_placeholder.jpg)
